@@ -1,6 +1,5 @@
 import PyPDF2
 import os
-from pathlib import Path
 
 def listar_arquivos(diretorio, lista_arquivos):
     arquivos = os.listdir(diretorio)
@@ -33,12 +32,4 @@ for pdf in lista_pdfs:
 
 merge_pdf(lista_arq_lido, "teste_merge.pdf")
 
-
-'''
-pdf_file = open('lorem-ipsum.pdf', 'rb')
-dados_pdf = PyPDF2.PdfFileReader(pdf_file)
-arq1 = ("")
-arq2 =
-arq3 = 
-'''
 
